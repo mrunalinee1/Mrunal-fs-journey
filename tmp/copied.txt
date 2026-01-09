@@ -1,0 +1,5 @@
+Using cat and >: The cat command reads from standard input until you signal the end of the input (EOF).
+bash
+cat > myfile.txt
+# Type your content here...
+# Press Ctrl + D to save and exit.

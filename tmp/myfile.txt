@@ -1,0 +1,3 @@
+hello
+im trying to learn permissions chmod is use to chnage permission 
+777
