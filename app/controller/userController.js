@@ -24,15 +24,7 @@ class UserController {
         res.status(201).json(createdUser);
     }
 
-    deleteUser(req, res) {
-        const id = parseInt(req.params.id, 10);
-        const deletedUser = userService.deleteUser(id);
-        if (deletedUser) {
-            res.json(deletedUser);
-        } else {
-            res.status(404).json({ message: 'User not found' });
-        }
-    }
+   
 }
 
 module.exports = new UserController();
